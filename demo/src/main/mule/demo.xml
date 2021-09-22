@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<http:listener-connection host="0.0.0.0" port="8082" />
 	</http:listener-config>
 	<flow name="demoFlow" doc:id="f6f94324-c0ad-4e23-843b-aed7be8d0d11" >
-		<http:listener doc:name="Listener" doc:id="15dc15ad-55c7-417c-bc8e-c7629cbab79b" config-ref="HTTP_Listener_config" path="/demo"/>
+		<http:listener doc:name="Listener" doc:id="15dc15ad-55c7-417c-bc8e-c7629cbab79b" config-ref="HTTP_Listener_config" path="/demo3"/>
 		<logger level="INFO" doc:name="Logger" doc:id="1b6c80be-5938-4a79-baa2-dfe7a649d8cd" message="hello craft"/>
 		<ee:transform doc:name="Transform Message" doc:id="c04938b3-555d-4634-a7c0-87406eeafd56" >
 			<ee:message >
